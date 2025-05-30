@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #2e0230; /* Define a cor do texto como branco */
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+   }
+   body {
+    background: url('./img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+   }
+
+   .container {
+    display: flex;
+    height: 100%;
+   }
+   .sidebar {
+    background: rgba(229, 219, 231, 0.7);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+   }
+
+   .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+   }
+   .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   }
+   .menu ul li {
+    margin-bottom: 10px;
+   }
+   .menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    transition: opacity 0.3s;
+   }
+   .menu ul li:nth-child(1) a {
+    background-color: #6e4892;
+   }
+   .menu ul li:nth-child(2) a {
+    background-color: #6c3876;
+   }
+   .menu ul li:nth-child(3) a {
+    background-color: #55216a;
+   }
+   .menu ul li:nth-child(4) a {
+    background-color: #451558;
+   }
+  
+   .menu ul li a:hover {
+    opacity: 0.8;
+   }
+
+   .content {
+    padding: 20px;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+   }
+   .box1 {
+    background: url("./img/cronograma\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+   }
+   .box2 {
+    background-image: url("./img/widicare.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+   }
+   .box3 {
+    background-image: url("./img/loreal\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+   }
+   .box4{
+    background-image: url("./img/haskell.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+   }
+   .box5 {
+    background: url("./img/lola.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+   }
+   .box h2 {
+    color: #f3ecf5;
+    margin-top: 0;
+   }
+
+   
